@@ -80,7 +80,12 @@ export const Projects = ({ setProgress }) => {
         <SectionTitle heading="PROJECTS" subHeading="some of my recent works" />
         <div className="project__searchBar">
           <form>
-            <input type="text" value={searchText} onChange={handleChange} />
+            <input
+              type="text"
+              value={searchText}
+              placeholder="Search Projects"
+              onChange={handleChange}
+            />
             <MdSearch className="searchIcon" />
           </form>
         </div>
