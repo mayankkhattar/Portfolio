@@ -3,7 +3,6 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
 import { Footer } from './components/Footer';
 import { NavMenu2 } from './components/NavMenu2';
-import { SmoothScrollBar } from './components/SmoothScrollBar';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
@@ -21,23 +20,22 @@ export default function App() {
         loaderSpeed={1}
         height={5}
       />
-      <SmoothScrollBar>
-        <Switch>
-          <Route path="/contact">
-            <Contact setProgress={setProgress} />
-          </Route>
-          <Route path="/projects">
-            <Projects setProgress={setProgress} />
-          </Route>
-          <Route path="/about">
-            <About setProgress={setProgress} />
-          </Route>
-          <Route path="/">
-            <Home setProgress={setProgress} />
-          </Route>
-        </Switch>
-        <Footer />
-      </SmoothScrollBar>
+
+      <Switch>
+        <Route path="/contact">
+          <Contact setProgress={setProgress} />
+        </Route>
+        <Route path="/projects">
+          <Projects setProgress={setProgress} />
+        </Route>
+        <Route path="/about">
+          <About setProgress={setProgress} />
+        </Route>
+        <Route path="/">
+          <Home setProgress={setProgress} />
+        </Route>
+      </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
