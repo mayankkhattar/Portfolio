@@ -39,7 +39,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0 auto;
   }
 /* Smooth Scroll  */
-  [data-scrollbar] {
+  /* [data-scrollbar] {
     height: 100vh;
     overflow: hidden;
     background-color: var(--gray-1);
@@ -52,6 +52,6 @@ const GlobalStyles = createGlobalStyle`
         background: var(--gray-1);
       }
     }
-  }
+  } */
 `;
 export default GlobalStyles;
