@@ -52,7 +52,7 @@ export const ContactSection = () => (
       <SectionTitle subHeading="get in touch" heading="CONTACT" />
       <div className="contactSection__wrapper">
         <div className="left">
-          <a href="tel:+7009379611">
+          <a href="tel:+917009379611">
             <ContactInfoItem icon={<MdLocalPhone />} text="+7009379611" />
           </a>
           <a href="mailto:mk.contact.29@gmail.com">
