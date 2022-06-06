@@ -9,7 +9,7 @@ export const mySkillsContent = {
   JavaScript: 85,
   'React/Redux': 90,
   'Tailwind CSS': 80,
-  StyledComponents: 80,
+  'Styled Components': 80,
   Node: 70,
   Express: 60,
   Java: 60,
