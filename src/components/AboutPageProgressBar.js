@@ -15,7 +15,7 @@ const AboutPageProgressBarStyle = styled.div`
     /* height: 10px; */
     width: 60%;
     position: absolute;
-    left: 20rem;
+    left: 24rem;
     .react-sweet-progress-symbol {
       margin-left: 1rem;
       font-size: 2rem;
