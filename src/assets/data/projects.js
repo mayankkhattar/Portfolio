@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import BurgerImg from '../images/burgermaker.avif';
+import BurgerImg from '../images/burgermaker.jpg';
 import comingSoonImg from '../images/coming-soon3.png';
 
 const projects = [
