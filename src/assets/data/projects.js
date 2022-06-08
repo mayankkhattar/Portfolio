@@ -1,8 +1,19 @@
 import { v4 as uuidv4 } from 'uuid';
 import BurgerImg from '../images/burgermaker.jpg';
 import comingSoonImg from '../images/coming-soon3.png';
+import CloudManagementImg from '../images/cyber-bg.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Cloud Management App',
+    // eslint-disable-next-line prettier/prettier
+    desc:
+    'A cloud management web app using React.js and Tailwind CSS',
+    img: CloudManagementImg,
+    path: 'https://cloud-management-app.netlify.app',
+    target: '_blank',
+  },
   {
     id: uuidv4(),
     name: 'Burger Builder',
