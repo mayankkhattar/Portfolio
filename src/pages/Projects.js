@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdSearch } from 'react-icons/md';
 import styled from 'styled-components';
+import debounce from 'lodash.debounce';
 import { ProjectItem } from '../components/ProjectItem';
 import { SectionTitle } from '../components/SectionTitle';
 import ProjectInfo from '../assets/data/projects';
@@ -59,8 +60,11 @@ export const Projects = ({ setProgress }) => {
 
   const handleChange = (e) => {
     e.preventDefault();
+    // console.log('change');
     setSearchText(e.target.value);
   };
+
+  const debounceHandleChange = debounce(handleChange, 300);
 
   useEffect(() => {
     if (searchText === '') {
@@ -82,9 +86,8 @@ export const Projects = ({ setProgress }) => {
           <form>
             <input
               type="text"
-              value={searchText}
               placeholder="Search Projects"
-              onChange={handleChange}
+              onChange={debounceHandleChange}
             />
             <MdSearch className="searchIcon" />
           </form>
