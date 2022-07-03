@@ -13,7 +13,7 @@ export const mySkillsContent = {
   'Redux Thunk': 80,
   'Styled Components': 80,
   Node: 70,
-  Express: 60,
+  Express: 70,
   Java: 60,
 };
 export const experiences = [
