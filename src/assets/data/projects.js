@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import BurgerImg from '../images/burgermaker.jpg';
 import comingSoonImg from '../images/coming-soon3.png';
 import CloudManagementImg from '../images/cyber-bg.png';
+import NetflixImg from '../images/Netflix.jpg';
 
 const projects = [
   {
@@ -12,6 +13,16 @@ const projects = [
     'A cloud management web app using React.js and Tailwind CSS',
     img: CloudManagementImg,
     path: 'https://cloud-management-app.netlify.app',
+    target: '_blank',
+  },
+  {
+    id: uuidv4(),
+    name: 'Netflix-Clone',
+    // eslint-disable-next-line prettier/prettier
+    desc:
+    'A Netflix-Clone(Frontend  Only) using React.js and Tailwind CSS(In production not completed)',
+    img: NetflixImg,
+    path: 'https://netflix-team-mk.netlify.app/',
     target: '_blank',
   },
   {
