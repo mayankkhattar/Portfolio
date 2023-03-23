@@ -86,7 +86,7 @@ export const AboutSection = () => (
         <SectionTitle heading="ABOUT ME" subHeading="let me introduce myself" />
         <PText>
           I am a frontend developer from New Delhi, India. I create professional
-          websites.I have 3 years of experience in frontend development.
+          websites.I have 4+ years of experience in frontend development.
         </PText>
         <div className="about_buttons">
           <Button btnText="Works" btnLink="/projects" />
