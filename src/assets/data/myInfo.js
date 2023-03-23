@@ -7,7 +7,8 @@ export const mySkillsContent = {
   HTML: 90,
   CSS: 80,
   JavaScript: 85,
-  'React Js': 90,
+  'Next Js': 95,
+  'React Js': 95,
   Redux: 90,
   'Tailwind CSS': 80,
   'Redux Thunk': 80,
@@ -18,7 +19,10 @@ export const mySkillsContent = {
 };
 export const experiences = [
   {
-    '2020-Present': ['Software Engineer at ARI Simulation'],
+    '2022-Present': ['Sr.Software Engineer at HT Media Ltd'],
+  },
+  {
+    '2020-2022': ['Software Engineer at ARI Simulation'],
   },
   {
     '2019-2020': ['Technical Intern at ARI Simulation'],
