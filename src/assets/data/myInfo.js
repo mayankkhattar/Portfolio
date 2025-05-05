@@ -4,14 +4,14 @@ export const educationContent = [
   { X: ['D.A.V Public School'] },
 ];
 export const mySkillsContent = {
-  HTML: 90,
-  CSS: 80,
-  JavaScript: 95,
   'Next Js': 95,
   'React Js': 95,
+  JavaScript: 95,
   TypeScript: 80,
   Redux: 90,
   'Redux toolkit': 90,
+  HTML: 90,
+  CSS: 80,
   GraphQL: 80,
   Seo: 80,
   'Core Web Vitals': 80,
