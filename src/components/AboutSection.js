@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { Button } from "./Button";
-import { PText } from "./PText";
-import { SectionTitle } from "./SectionTitle";
-import imgAbout from "../assets/images/about11.png";
+import React from 'react';
+import styled from 'styled-components';
+import { Button } from './Button';
+import { PText } from './PText';
+import { SectionTitle } from './SectionTitle';
+import imgAbout from '../assets/images/about11.png';
 
 const AboutSectionStyles = styled.div`
   .container {
