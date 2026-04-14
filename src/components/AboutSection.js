@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Button } from './Button';
-import { PText } from './PText';
-import { SectionTitle } from './SectionTitle';
-import imgAbout from '../assets/images/about11.png';
+import React from "react";
+import styled from "styled-components";
+import { Button } from "./Button";
+import { PText } from "./PText";
+import { SectionTitle } from "./SectionTitle";
+import imgAbout from "../assets/images/about11.png";
 
 const AboutSectionStyles = styled.div`
   .container {
@@ -85,8 +85,8 @@ export const AboutSection = () => (
       <div className="left__section">
         <SectionTitle heading="ABOUT ME" subHeading="let me introduce myself" />
         <PText>
-          I am a frontend developer from New Delhi, India. I create professional
-          websites.I have 4+ years of experience in frontend development.
+          I am a frontend developer from Gurugram, India. I create professional
+          websites.I have 7+ years of experience in frontend development.
         </PText>
         <div className="about_buttons">
           <Button btnText="Works" btnLink="/projects" />
